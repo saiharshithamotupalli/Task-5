@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+<img src="logo.jpg" style="border-radius: 500px;" height="30" width="30" align="right" >
+</nav>
+
+<section id="home">
+<div class="home-text">
+<h1> Motupalli Sai Harshitha</h1>
+<h3 >Aspiring Data Analyst</h3>
+<p>MCA Student at Aditya University.</p>
+
+<a href="new resume.pdf"  target="_blank">
+<button>Download Resume</button>
+</a>
+
+</div>
+
+<div class="home-img">
+<img src="sai1.jpeg" alt="Profile">
+</div>
+</section>
+
+<section id="about">
+<h2>About Me</h2>
+<p>
+I am passionate about web development and data analytics. 
+I enjoy creating responsive websites and learning modern
+technologies.<br>
+<pre>
+Motivated professional with strong problem-solving and analytic skills, seeking to contribute to a dynamic team by delivering innnovative
+solutions,enhancing user experience,and supporting organizational growth through continous learning and collaboration</pre>
+</p>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+
+<div class="skill-box">
+<i class="fa-brands fa-html5"></i>
+<i class="fa-brands fa-css3-alt"></i>
+<i class="fa-brands fa-java"></i>
+<i class="fa-brands fa-python"></i>
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2><br>
+
+<div class="cards">
+
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>Responsive personal portfolio.</p>
+</div>
+
+<div class="card">
+<h3>Contact Form</h3>
+<p>Validation using JavaScript.</p>
+</div>
+
+<div class="card">
+<h3>Career Resources</h3>
+<p>Interactive website navigation.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="career">
+
+<h2>Career Resources</h2>
+
+<button onclick="openSite()">
+Explore Career Websites
+</button>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Me</h2>
+
+<form onsubmit="return validateForm()">
+
+<input type="text" placeholder="Enter Name" id="name">
+
+<input type="tel" placeholder="Enter Mobile Number" id="mobile">
+
+<input type="email" placeholder="Enter Email" id="email">
+
+<button type="submit">Submit</button>
+
+</form>
+
+</section>
+
+<div class="social">
+
+<a href="https://www.linkedin.com/in/sai-harshitha-motupalli-334694310" target="_blank">
+    <i class="fa-brands fa-linkedin"></i></a>
+<a href="https://github.com/saiharshithamotupalli"target="_blank">
+    <i class="fa-brands fa-github" ></i></a>
+
+</div>
+
+<button id="topBtn"
+onclick="topFunction()">
+↑
+</button>
+
+<footer>
+<p>
+ @ 2026 Saiharshitha Portfolio
+</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
